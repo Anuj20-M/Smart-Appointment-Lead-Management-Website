@@ -1,0 +1,29 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+BOOKAPPOINTMENT_FINAL_SUMMARY/
+BOOKAPPOINTMENT_SUMMARY/
+MEMORY/
+MyAppointments_implementation/
+TOAST_FIX_SUMMARY/
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
