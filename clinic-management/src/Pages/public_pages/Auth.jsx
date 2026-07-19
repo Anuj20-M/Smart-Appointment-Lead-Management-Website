@@ -14,10 +14,8 @@ const Auth = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [showRegisterPassword, setShowRegisterPassword] = useState(false);
   const [showConfrimPassword, setShowConfrimPassword] = useState(false);
-
-  // useEffect(() => {
-  //   setIsLogin(mode !== "register");
-  // }, [mode]);
+  const navigate = useNavigate();
+  
   const loginForm = useForm({
     mode: "onChange",
   });
@@ -26,7 +24,10 @@ const Auth = () => {
   });
 
   const onLoginSubmit = async (data) => {
-    await login(data.email, data.password);
+    const success = await login(data.email, data.password);
+    if (success) {
+      navigate("/BookAppointment");
+    }
     console.log("Logged in successfully");
   };
 
