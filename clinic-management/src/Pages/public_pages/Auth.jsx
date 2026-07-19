@@ -1,39 +1,45 @@
 import { useState, useContext } from "react";
 import { Hospital, EyeOff, Eye } from "lucide-react";
 import { useForm } from "react-hook-form";
-import { useSearchParams } from "react-router-dom";
-import AuthContext from "../../context/AuthContext";
+import { useSearchParams,useNavigate } from "react-router-dom";
+import AuthContext from "../../context-API/AuthContext";
+
 
 const Auth = () => {
   const [searchParams] = useSearchParams();
   const mode = searchParams.get("mode");
   const [isLogin, setIsLogin] = useState(mode !== "register");
   const { user, login, register } = useContext(AuthContext);
+  const navigate = useNavigate();
 
   //Showing Password
   const [showPassword, setShowPassword] = useState(false);
   const [showRegisterPassword, setShowRegisterPassword] = useState(false);
   const [showConfrimPassword, setShowConfrimPassword] = useState(false);
-  const navigate = useNavigate();
-  
+
   const loginForm = useForm({
     mode: "onChange",
   });
   const registerForm = useForm({
     mode: "onChange",
   });
+  if (user) {
+    navigate("/");
+  }
 
   const onLoginSubmit = async (data) => {
     const success = await login(data.email, data.password);
     if (success) {
-      navigate("/BookAppointment");
+      navigate("/");
     }
-    console.log("Logged in successfully");
+    console.log("Logged in successfully", success);
   };
 
   const onRegisterSubmit = async (data) => {
-    await register(data);
-
+    const success = await register(data);
+    if (success) {
+      navigate("/");
+    }
     console.log("Registered successfully");
   };
 
@@ -333,6 +339,8 @@ const Auth = () => {
               <button
                 type="button"
                 onClick={() => {
+                  
+
                   setIsLogin(true);
                   loginForm.reset();
                   registerForm.reset();

@@ -1,9 +1,8 @@
-import React from "react";
-import Navbar from "../../components/Navbar";
-import HeroSection from "../../components/Hero";
-import ServicesSection from "../../components/Services";
-import Footer from "../../components/Footer";
-import AboutSection from "../../components/About";
+import Navbar from "../../components/public/Navbar";
+import HeroSection from "../../components/public/Hero";
+import ServicesSection from "../../components/public/Services";
+import Footer from "../../components/public/Footer";
+import AboutSection from "../../components/public/About";
 
 const Home = () => {
   return (

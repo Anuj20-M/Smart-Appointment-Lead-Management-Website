@@ -1,6 +1,8 @@
-import React from "react";
-import DoctorImg from "../assets/imges/image.png";
+import DoctorImg from "../../assets/imges/image.png";
 import { Link } from "react-router-dom";
+
+
+
 const HeroSection = () => {
   return (
     <section className="bg-slate-50">
@@ -26,18 +28,18 @@ const HeroSection = () => {
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                to="#Services"
+                to="/BookAppointment"
                 className="px-7 py-3 rounded-lg bg-[#2563eb] text-white font-medium hover:bg-[#004ac6] transition"
               >
                 Book Appointment
               </Link>
 
-              <Link
-                to="#About"
+              <a
+                href="#about"
                 className="px-7 py-3 rounded-lg border border-[#2563eb] text-[#2563eb] font-medium hover:bg-blue-50 transition"
               >
                 Learn More
-              </Link>
+              </a>
             </div>
 
             {/* Trust Info */}

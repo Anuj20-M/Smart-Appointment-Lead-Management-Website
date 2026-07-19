@@ -1,7 +1,9 @@
+import { createContext } from "react";
 import { useState } from "react";
-import AuthContext from "./AuthContext";
 
- const AuthProvider = ({ children }) => {
+const AuthContext = createContext();
+
+export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
 
   const login = async (email, password) => {
@@ -43,4 +45,4 @@ import AuthContext from "./AuthContext";
   );
 };
 
-export default AuthProvider
+export default AuthContext
