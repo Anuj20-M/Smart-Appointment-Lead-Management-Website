@@ -10,11 +10,11 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
-BOOKAPPOINTMENT_FINAL_SUMMARY
-BOOKAPPOINTMENT_SUMMARY
-MEMORY
-MyAppointments_implementation
-TOAST_FIX_SUMMARY
+BOOKAPPOINTMENT_FINAL_SUMMARY/
+BOOKAPPOINTMENT_SUMMARY/
+MEMORY/
+MyAppointments_implementation/
+TOAST_FIX_SUMMARY/
 *.local
 
 # Editor directories and files
