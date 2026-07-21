@@ -6,8 +6,8 @@ import Auth from "./Pages/public_pages/Auth";
 import CompleteProfile from "./Pages/patient_pages/CompleteProfilePage";
 import BookAppointmentPage from "./Pages/patient_pages/BookAppointmentPage";
 import MyAppointmentsPage from "./Pages/patient_pages/MyAppointmentsPage";
-import MyProfile from "./Pages/patient_pages/MyProfile";
-import Notification from "./Pages/patient_pages/Notification";
+import MyProfilePage from "./Pages/patient_pages/MyProfilePage";
+import NotificationPage from "./Pages/patient_pages/NotificationPage";
 
 import Dashboard from "./Pages/Admin_pages/Dashboard";
 import Appointments from "./Pages/Admin_pages/Appointments";
@@ -44,7 +44,7 @@ const App = () => {
           path="/Profile"
           element={
             <ProtectedRoute>
-              <MyProfile />
+              <MyProfilePage />
             </ProtectedRoute>
           }
         />
@@ -60,7 +60,7 @@ const App = () => {
           path="/notifications"
           element={
             <ProtectedRoute>
-              <Notification />
+              <NotificationPage />
             </ProtectedRoute>
           }
         />
