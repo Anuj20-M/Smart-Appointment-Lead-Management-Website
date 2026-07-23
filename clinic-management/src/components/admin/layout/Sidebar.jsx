@@ -64,7 +64,7 @@ export default function AdminSidebar() {
       </div>
 
       {/* Navigation */}
-      <nav className="flex-1 space-y-1">
+      <nav className="flex-1 space-y-4">
         {menuItems.map((item) => (
           <NavLink
             key={item.title}

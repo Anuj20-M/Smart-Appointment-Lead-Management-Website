@@ -13,8 +13,8 @@ import Dashboard from "./Pages/Admin_pages/DashboardPage";
 import AdminLogInPage from "./Pages/Admin_pages/adminLogInPage";
 import Appointments from "./Pages/Admin_pages/AppointmentsPage";
 import Patients from "./Pages/Admin_pages/PatientsPage";
-import Doctors from "./Pages/Admin_pages/Doctors";
-import History from "./Pages/Admin_pages/History";
+import Doctors from "./Pages/Admin_pages/DoctorsPage";
+import History from "./Pages/Admin_pages/HistoryPage";
 import ProtectedRoute from "./routes/ProtectedRoute";
 import AdminLayout from "./components/admin/layout/Layout";
 

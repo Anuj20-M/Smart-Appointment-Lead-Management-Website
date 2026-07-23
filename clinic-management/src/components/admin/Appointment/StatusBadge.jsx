@@ -10,11 +10,8 @@ const STATUS_COLORS = {
   Cancelled: "bg-red-100 text-red-800",
 };
 
-export default function StatusBadge({ status }) {
+const StatusBadge = ({ status }) => {
   const classes = STATUS_COLORS[status] ?? "bg-gray-100 text-gray-800";
-  return (
-    <Badge className={`px-2 py-0.5 rounded ${classes}`}>
-      {status}
-    </Badge>
-  );
-}
+  return <Badge className={`px-2 py-0.5 rounded ${classes}`}>{status}</Badge>;
+};
+export default StatusBadge;
