@@ -6,7 +6,7 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuSeparator,
-} from "../../components/ui/dropdown-menu";
+} from "../../ui/dropdown-menu";
 import { MoreHorizontal } from "lucide-react";
 
 export default function ActionMenu({

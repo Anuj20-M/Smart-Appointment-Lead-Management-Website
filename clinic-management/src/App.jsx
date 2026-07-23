@@ -12,11 +12,11 @@ import NotificationPage from "./Pages/patient_pages/NotificationPage";
 import Dashboard from "./Pages/Admin_pages/DashboardPage";
 import AdminLogInPage from "./Pages/Admin_pages/adminLogInPage";
 import Appointments from "./Pages/Admin_pages/AppointmentsPage";
-import Patients from "./Pages/Admin_pages/Patients";
+import Patients from "./Pages/Admin_pages/PatientsPage";
 import Doctors from "./Pages/Admin_pages/Doctors";
 import History from "./Pages/Admin_pages/History";
 import ProtectedRoute from "./routes/ProtectedRoute";
-import AdminLayout from "./components/admin/Layout";
+import AdminLayout from "./components/admin/layout/Layout";
 
 const App = () => {
   return (

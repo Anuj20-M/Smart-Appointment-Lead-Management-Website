@@ -1,7 +1,7 @@
 // Dashboard Page – admin view
 // Implements the required sections using mock data from AdminMockData.js
 
-import { upcomingAppointments } from "../../data/AdminMockData";
+import { upcomingAppointments } from "../../../data/AdminMockData";
 
 const UpcomingTable = () => (
   <div className="overflow-x-auto rounded-lg border">

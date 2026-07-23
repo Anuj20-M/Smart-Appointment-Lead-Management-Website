@@ -1,6 +1,6 @@
 // src/components/admin/StatusBadge.jsx
 
-import { Badge } from "../../components/ui/badge"; // re‑use the shadcn badge
+import { Badge } from "../../ui/badge"; // re‑use the shadcn badge
 
 // map status → Tailwind color classes (use the AdminDesign tokens where they exist)
 const STATUS_COLORS = {

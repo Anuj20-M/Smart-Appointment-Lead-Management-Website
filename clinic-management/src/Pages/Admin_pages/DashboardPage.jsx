@@ -3,11 +3,11 @@
 
 import { Users, CalendarDays, Clock3, CheckCircle2 } from "lucide-react";
 import { dashboardStats } from "../../data/AdminMockData";
-import StatCard from "../../components/admin/StatCard";
+import StatCard from "../../components/admin/dashboard/StatCard";
 
-import UpcomingTable from "../../components/admin/UpcomingTable";
+import UpcomingTable from "../../components/admin/dashboard/UpcomingTable";
 
-import QuickActions from "../../components/admin/QuickActions";
+import QuickActions from "../../components/admin/dashboard/QuickActions";
 
 const Dashboard = () => {
   return (

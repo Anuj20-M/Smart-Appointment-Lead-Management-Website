@@ -79,6 +79,7 @@ export const recentPatients = [
     age: 28,
     phone: "+91 98765 43210",
     lastVisit: "Yesterday",
+    email: "	olivia.davis@example.com",
   },
   {
     id: 2,
@@ -86,6 +87,7 @@ export const recentPatients = [
     age: 42,
     phone: "+91 98765 12345",
     lastVisit: "2 days ago",
+    email: "	liam.smith@example.com",
   },
   {
     id: 3,
@@ -93,6 +95,7 @@ export const recentPatients = [
     age: 35,
     phone: "+91 99887 66554",
     lastVisit: "Last week",
+    email: "	ava.johnson@example.com",
   },
 ];
 

@@ -11,8 +11,9 @@ import {
 import { Button } from "../../components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Search } from "lucide-react";
-import StatusBadge from "../../components/admin/StatusBadge";
-import ActionMenu from "../../components/admin/ActionMenu";
+
+import StatusBadge from "../../components/admin/Appointment/StatusBadge";
+import ActionMenu from "../../components/admin/Appointment/ActionMenu";
 import { appointments as mockAppointments } from "../../data/AdminMockData";
 
 const doctors = ["All", "Dr. Sarah", "Dr. David", "Dr. Emily"];
