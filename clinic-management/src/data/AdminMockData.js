@@ -1,0 +1,208 @@
+// Dashboard Statistics
+export const dashboardStats = [
+  {
+    id: 1,
+    title: "Total Patients",
+    value: 248,
+    icon: "Users",
+    description: "+12 this month",
+  },
+  {
+    id: 2,
+    title: "Today's Appointments",
+    value: 14,
+    icon: "CalendarDays",
+    description: "2 remaining",
+  },
+  {
+    id: 3,
+    title: "Pending Appointments",
+    value: 4,
+    icon: "Clock3",
+
+    description: "Awaiting confirmation",
+  },
+  {
+    id: 4,
+    title: "Confirmed Appointments",
+    value: 10,
+    icon: "CheckCircle2",
+    description: "Ready for today",
+  },
+];
+export const upcomingAppointments = [
+  {
+    id: 1,
+    patient: "John Doe",
+    doctor: "Dr. Sarah Johnson",
+    time: "09:30 AM",
+    date: "Today",
+    status: "Confirmed",
+  },
+  {
+    id: 2,
+    patient: "Emma Wilson",
+    doctor: "Dr. Sarah Johnson",
+    time: "10:15 AM",
+    date: "Today",
+    status: "Pending",
+  },
+  {
+    id: 3,
+    patient: "Michael Brown",
+    doctor: "Dr. David Lee",
+    time: "11:00 AM",
+    date: "Today",
+    status: "Confirmed",
+  },
+  {
+    id: 4,
+    patient: "Sophia Taylor",
+    doctor: "Dr. David Lee",
+    time: "12:30 PM",
+    date: "Today",
+    status: "Confirmed",
+  },
+  {
+    id: 5,
+    patient: "Daniel Thomas",
+    doctor: "Dr. Sarah Johnson",
+    time: "02:00 PM",
+    date: "Today",
+    status: "Pending",
+  },
+];
+export const recentPatients = [
+  {
+    id: 1,
+    name: "Ava Johnson",
+    age: 28,
+    phone: "+91 98765 43210",
+    lastVisit: "Yesterday",
+  },
+  {
+    id: 2,
+    name: "Liam Smith",
+    age: 42,
+    phone: "+91 98765 12345",
+    lastVisit: "2 days ago",
+  },
+  {
+    id: 3,
+    name: "Olivia Davis",
+    age: 35,
+    phone: "+91 99887 66554",
+    lastVisit: "Last week",
+  },
+];
+
+export const doctors = [
+  {
+    id: 1,
+    name: "Dr. Sarah Johnson",
+    specialization: "General Physician",
+    appointmentsToday: 8,
+  },
+  {
+    id: 2,
+    name: "Dr. David Lee",
+    specialization: "Pediatrician",
+    appointmentsToday: 6,
+  },
+];
+
+// src/data/AdminMockData.js
+// mock appointments for the admin UI – replace with API data later
+
+export const appointments = [
+  {
+    id: 1,
+    patient: "John Doe",
+    doctor: "Dr. Sarah",
+    date: "2024-09-15",
+    time: "10:00",
+    reason: "Routine Check‑up",
+    status: "Pending",
+  },
+  {
+    id: 2,
+    patient: "Emma Wilson",
+    doctor: "Dr. David",
+    date: "2024-09-15",
+    time: "10:30",
+    reason: "Follow‑up",
+    status: "Confirmed",
+  },
+  {
+    id: 3,
+    patient: "Liam Chen",
+    doctor: "Dr. Sarah",
+    date: "2024-09-15",
+    time: "11:00",
+    reason: "Dental Cleaning",
+    status: "Completed",
+  },
+  {
+    id: 4,
+    patient: "Olivia Patel",
+    doctor: "Dr. Emily",
+    date: "2024-09-16",
+    time: "09:30",
+    reason: "Vaccination",
+    status: "Cancelled",
+  },
+  {
+    id: 5,
+    patient: "Noah Kim",
+    doctor: "Dr. David",
+    date: "2024-09-16",
+    time: "13:00",
+    reason: "Blood Test",
+    status: "Pending",
+  },
+  {
+    id: 6,
+    patient: "John Doe",
+    doctor: "Dr. Sarah",
+    date: "2024-09-15",
+    time: "10:00",
+    reason: "Routine Check‑up",
+    status: "Pending",
+  },
+  {
+    id: 7,
+    patient: "Emma Wilson",
+    doctor: "Dr. David",
+    date: "2024-09-15",
+    time: "10:30",
+    reason: "Follow‑up",
+    status: "Confirmed",
+  },
+  {
+    id: 8,
+    patient: "Liam Chen",
+    doctor: "Dr. Sarah",
+    date: "2024-09-15",
+    time: "11:00",
+    reason: "Dental Cleaning",
+    status: "Completed",
+  },
+  {
+    id: 9,
+    patient: "Olivia Patel",
+    doctor: "Dr. Emily",
+    date: "2024-09-16",
+    time: "09:30",
+    reason: "Vaccination",
+    status: "Cancelled",
+  },
+  {
+    id: 10,
+    patient: "Noah Kim",
+    doctor: "Dr. David",
+    date: "2024-09-16",
+    time: "13:00",
+    reason: "Blood Test",
+    status: "Pending",
+  },
+];
